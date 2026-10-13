@@ -1,0 +1,47 @@
+Icon Map public demos
+Copyright (c) 2026 Tekantis Limited
+
+The files in this repository are licensed under the MIT License (see LICENSE), with the exceptions and
+notices below.
+
+TRADEMARKS
+"Icon Map", "Icon Map for Fabric", the Icon Map logo and the Icon Map advertising artwork shown on the demo's
+3D buses and bus shelters are trademarks or copyright works of Tekantis Limited. They are not licensed under
+the MIT License; you may show them as part of the unmodified demo.
+
+THE SOFTWARE THESE DEMOS RUN IN
+The demos are configurations for Icon Map for Fabric, which is licensed separately by Tekantis Limited. The
+MIT License on these files grants no rights to Icon Map itself.
+
+DATA
+The demo's data is not in this repository. It is delivered by a OneLake external data share from Tekantis
+and remains under the licence of each source:
+
+  - Bus Open Data Service (Department for Transport): Open Government Licence v3.0
+  - Transport for London open data: Powered by TfL Open Data. Contains OS data (c) Crown copyright and
+    database rights. Open Government Licence v3.0
+  - Environment Agency LiDAR: (c) Environment Agency copyright and/or database right. Open Government
+    Licence v3.0
+  - OS Open Map Local building outlines: Contains OS data (c) Crown copyright and database right. Open
+    Government Licence v3.0
+  - Greater London Authority, London Public Realm Trees: Open Government Licence v3.0
+  - Office for National Statistics (Census 2021) and MHCLG (English Indices of Deprivation 2025):
+    Open Government Licence v3.0
+  - Bus route geometry derived from OpenStreetMap: (c) OpenStreetMap contributors, available under the
+    Open Database License (ODbL)
+  - Basemap: (c) OpenStreetMap contributors, (c) OpenMapTiles
+
+Keep these attributions with the demo if you show, publish or adapt it.
+
+3D MODELS
+The bus, bus shelter, bus stop flag, arrivals display and street tree models are by Tekantis Limited and
+dedicated to the public domain under CC0 1.0, as they are in the Icon Map Catalog.
+
+THE DEMO FEED
+The live layers read a demo feed run by Tekantis Limited. Its address, including a demo access key, is part
+of the map definition and so is visible in this repository. The key exists only to stop casual discovery of
+the feed; it is not a secret, and Tekantis may change it, limit the feed or withdraw it at any time. The feed
+is provided as is, with no guarantee of availability, accuracy or timeliness, and is not for operational use.
+
+The demos are worked examples built from publicly available data. They are not affiliated with or endorsed
+by any bus operator or by Transport for London.
