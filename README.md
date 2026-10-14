@@ -26,7 +26,7 @@ About 15 minutes. You do every step yourself, in your own tenant.
 |---|---|
 | **Icon Map for Fabric** enabled for your tenant | Tekantis enables this for private preview customers. Without it, Fabric reports that the Icon Map item type isn't supported when it syncs. |
 | A workspace on a **Fabric capacity or trial**, where you're an **Admin** | Only a workspace admin can connect a workspace to Git. |
-| Your Fabric admin to have switched on, in **Admin portal → Tenant settings**: **Users can sync workspace items with GitHub repositories** (Git integration) and **Users can accept external data shares** (Export and sharing settings) | The first lets the workspace connect to GitHub; the second lets you accept the demo's data. |
+| Your Fabric admin to have switched on, in **Admin portal → Tenant settings**: **Users can sync workspace items with GitHub repositories** and **Users can export items to Git repositories in other geographical locations** (both under Git integration), and **Users can accept external data shares** (Export and sharing settings) | The first two let the workspace connect to GitHub: Fabric can't confirm which region a GitHub repository is stored in, so without the second the GitHub option stays greyed out. The third lets you accept the demo's data. Settings can take about 15 minutes to apply. |
 | A **GitHub** account | To hold your own copy of this repository. |
 | The **data share invitation** from Tekantis | Tekantis sends it to the work email address you give us. The data stays in Tekantis's OneLake and is read in place. |
 
@@ -113,6 +113,7 @@ That's it. To save the resolved settings into the map itself, make any small cha
 
 | You see | Do this |
 |---|---|
+| The **GitHub** option is greyed out | Your Fabric admin needs both Git integration settings in *Before you start*, including the one for other geographical locations. |
 | Git sync fails, saying an item type isn't supported | Icon Map for Fabric isn't enabled for your tenant yet. Contact Tekantis. |
 | The map opens but the analysis pages are empty | Check step 5: DemoData → Files → **london-buses** must exist with that exact name. |
 | A yellow bar says a variable needs attention | Check step 6: **DemoLakehouse** must point at DemoData in this workspace, and the library must be named **DemoSettings**. |
